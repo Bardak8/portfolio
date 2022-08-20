@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="../Index.css" rel="stylesheet">
+    <link href="../css/Skill.css" rel="stylesheet">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/74fed0e2b5.js"></script>
+    <script defer type="text/javascript" src="../Skill.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -41,16 +47,60 @@
         </nav>
     </div>
     <div class="content">
-        <h1> Mes Compétences </h1>
-        <div>
-            <h2> Reseau & Infra </h2>
-        </div>
-        <div>
-            <h2> Developpement </h2>
-        </div>
-        <div>
-            <h2> Web </h2>
+        <h1 class="CompTitre"> Mes Compétences </h1>
+        <div class="simpleContent">
+        <div class="Infra">
+            <h2 class="title_skill"> Reseau & Infra </h2>
+            <div class="skillbar clearfix " data-percent="30%">
+                <div class="skillbar-title" style="background: darkred;"><span><i class="fa-brands fa-linux"></i></span></div>
+                <div class="skillbar-bar" style="background: red;"></div>
+                <div class="skill-bar-percent">30%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="30%">
+                <div class="skillbar-title" style="background: darkred;"><span><i class="fa-brands fa-windows"></i></span></div>
+                <div class="skillbar-bar" style="background: red;"></div>
+                <div class="skill-bar-percent">30%</div>
+            </div>
+            </div>
 
+        </div>
+        <div class="doubleContent">
+        <div class="Dev">
+            <h2 class="title_skill"> Developpement </h2>
+            <div class="skillbar clearfix " data-percent="40%">
+                <div class="skillbar-title" style="background: #1E90FF;"><span><i class="fa-brands fa-golang" ></i></span></div>
+                <div class="skillbar-bar" style="background: #00BFFF;"></div>
+                <div class="skill-bar-percent">40%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="60%">
+                <div class="skillbar-title" style="background: #006400;"><span><i class="fa-brands fa-python"></i></span></div>
+                <div class="skillbar-bar" style="background: #228B22;"></div>
+                <div class="skill-bar-percent">60%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="60%">
+                <div class="skillbar-title" style="background: #48D1CC;"><span><i class="fa-solid fa-c"></i></span></div>
+                <div class="skillbar-bar" style="background: #87CEFA;"></div>
+                <div class="skill-bar-percent">55%</div>
+            </div>
+        </div>
+        <div class="Web">
+            <h2 class="title_skill"> Web </h2>
+            <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span><i class="fa-brands fa-html5"></i></span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div class="skill-bar-percent">80%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span><i class="fa-brands fa-css3"></i></span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div class="skill-bar-percent">80%</div>
+            </div>
+            <div class="skillbar clearfix " data-percent="40%">
+                <div class="skillbar-title" style="background: #FFD700;"><span><i class="fa-brands fa-js"></i></span></div>
+                <div class="skillbar-bar" style="background: yellow;"></div>
+                <div class="skill-bar-percent">40%</div>
+            </div>
+        </div>
         </div>
     </div>
     <div class="footer">

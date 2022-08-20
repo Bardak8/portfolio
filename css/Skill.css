@@ -1,0 +1,116 @@
+
+.skillbar {
+    font-family: "Open Sans", "sans-serif";
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 4px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #444;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+.CompTitre{
+    display:flex;
+    justify-content: center;
+    margin-top:3vh;
+    color:black
+}
+
+
+.Web{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.Infra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5vh;
+    width: 60%;
+}
+
+.Dev {
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.title_skill{
+    color:black;
+    margin-bottom:1vh
+}
+
+
+.fa-golang{
+    font-size:20px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+.doubleContent{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:6vh
+}
+
+.simpleContent{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
