@@ -1,0 +1,70 @@
+.tidder{
+    background :  url("../img/Tidder.png") no-repeat center;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.api{
+    background :  url("../img/API.PNG") no-repeat center;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.projet_infra{
+    background :  url("../img/Sans titre.png") no-repeat center;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.site_perso{
+    background :  url("../img/Capture.PNG") no-repeat center;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.hangman_web{
+    background :  url("../img/HangmanWeb.PNG") no-repeat center;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.projet_red{
+    background :  url("../img/Tidder.png") no-repeat;
+    height:14vh;
+    width: 14vw;
+    margin:2.5vh
+}
+
+.content{
+    display:flex;
+    height:85vh;
+    width:100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet_content{
+    display:flex;
+    flex-direction: column;
+}
+
+.first-lign{
+    display:flex;
+    justify-content: space-between;
+}
+
+.secund-lign{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_projet{
+    display: flex;
+    margin-bottom: 10vh;
+}
