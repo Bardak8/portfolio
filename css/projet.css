@@ -84,8 +84,9 @@
 
 .title_projet{
     display: flex;
-    margin-bottom: 9vh;
-    margin-top:8vh;
+    margin-bottom: 8vh;
+    margin-top:9vh;
+    color:black;
     font-family: Bold1,serif;
 }
 
@@ -236,8 +237,28 @@
 }
 
 .github_projet_hang{
-    color:darkblue;
+    color:darkgreen;
     padding-right:4vh
+}
+
+.github_projet_TP{
+    color:darkorange;
+    padding-right:4vh
+}
+
+.github_projet_Infra{
+    color:crimson;
+    padding-right:4vh;
+}
+
+.github_projet_Tidder{
+    color:darkblue;
+    padding-right:4vh;
+}
+
+.github_projet_API{
+    color: darkviolet;
+    padding-right:3vh;
 }
 
 .content_Popup .fa-github{
@@ -259,6 +280,7 @@
     justify-content: space-between;
     opacity: 1;
     font-family: Light1, serif;
+    text-align: center;
 }
 
 
@@ -283,7 +305,7 @@
     left:38%;
     top:7%;
     margin-top:0;
-    color: darkblue;
+    color: darkgreen;
 }
 
 .popup .Infra_Popup {
@@ -291,7 +313,7 @@
     left:40%;
     top:7%;
     margin-top:0;
-    color: darkblue;
+    color: crimson;
 }
 
 .popup .API_Popup {
@@ -299,7 +321,7 @@
     left:40%;
     top:7%;
     margin-top:0;
-    color: darkblue;
+    color: darkviolet;
 }
 
 .popup .TpSite_Popup {
@@ -307,7 +329,7 @@
     left:40%;
     top:7%;
     margin-top:0;
-    color: darkblue;
+    color: darkorange;
 }
 .popup .close {
     position: absolute;

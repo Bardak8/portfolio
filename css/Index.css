@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: 'Bold1';
-    src: url("font/ClearSans-Bold.ttf") format("truetype");
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: 'Light1';
-    src: url("font/ClearSans-Light.ttf") format("truetype");
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
 }
 
 
@@ -35,7 +35,7 @@ body {
 
 .background_index{
     background-size:contain;
-    background: url("img/aix-by-night-599984788-660x440-4-6648.jpg") no-repeat top;
+    background: url("../img/aix-by-night-599984788-660x440-4-6648.jpg") no-repeat top;
     opacity: 0.8;
     text-shadow:2px 2px 3px black
 }
