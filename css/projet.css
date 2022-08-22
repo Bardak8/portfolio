@@ -1,48 +1,66 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+
+
 .tidder{
     background :  url("../img/Tidder.png") no-repeat center;
-    height:14vh;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .api{
     background :  url("../img/API.PNG") no-repeat center;
-    height:14vh;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .projet_infra{
     background :  url("../img/Sans titre.png") no-repeat center;
-    height:14vh;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .site_perso{
     background :  url("../img/Capture.PNG") no-repeat center;
-    height:14vh;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .hangman_web{
     background :  url("../img/HangmanWeb.PNG") no-repeat center;
-    height:14vh;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .projet_red{
-    background :  url("../img/Tidder.png") no-repeat;
-    height:14vh;
+    background :  url("../img/Red.PNG") no-repeat center;
+    background-size:  contain;
+    height:20vh;
     width: 14vw;
-    margin:2.5vh
+    margin:2.5vh;
+    opacity: 0.66;
 }
 
 .content{
     display:flex;
-    height:85vh;
+    height:88vh;
     width:100vw;
     flex-direction: column;
     justify-content: center;
@@ -66,5 +84,255 @@
 
 .title_projet{
     display: flex;
-    margin-bottom: 10vh;
+    margin-bottom: 9vh;
+    margin-top:8vh;
+    font-family: Bold1,serif;
+}
+
+.tidder:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+
+.api:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+
+.projet_infra:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+
+.projet_red:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+
+.hangman_web:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+
+
+
+
+
+.hover_Text{
+    opacity:0;
+    position:relative;
+    bottom:30%;
+    left:35%;
+    font-size:22px;
+    color:black;
+    text-shadow:  1px   1px;
+    font-family: Bold1, serif;
+}
+
+.hover_Text_bot{
+    opacity:0;
+    position:relative;
+    top:110%;
+    left:25%;
+    font-size:22px;
+    color:black;
+    text-shadow:  1px   1px
+}
+
+
+
+.site_perso:hover{
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+}
+.hover_Text_Style_API{
+    position: relative;
+    right:7%;
+}
+
+.hover_Text_Style_Infra{
+    position: relative;
+    right:30%;
+    font-size:18px;
+}
+
+.hover_Text_Style_Hang{
+    position:relative;
+    right:5%;
+}
+/* hover  */
+
+.tidder:hover .hover_Text{
+    opacity:1
+}
+
+.projet_red:hover .hover_Text_bot{
+    opacity:1
+}
+
+.projet_infra:hover .hover_Text{
+    opacity:1
+}
+
+.hangman_web:hover .hover_Text_bot{
+    opacity:1
+}
+
+.site_perso:hover .hover_Text_bot{
+    opacity:1
+}
+
+.api:hover .hover_Text{
+    opacity:1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+.popup {
+    border-radius: 5px;
+    width: 40vw;
+    height:65vh;
+    position: relative;
+    background:white;
+    left:30%;
+    top:15%
+}
+
+.github_projet{
+    color:darkred;
+    padding-right:4vh
+}
+
+.content_Popup .fa-github{
+    font-size:60px
+}
+
+.content_Popup{
+    margin-top: 5vh;
+    position:relative;
+    top:6vh;
+    height:40vh;
+    font-size: 16px;
+    padding: 2vh 2vh 2vh 3vh;
+    color:black;
+    display:flex;
+    text-shadow : 1px 1px 1px black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    font-family: Light1, serif;
+}
+
+
+.popup .Tidder_Popup {
+    position: relative;
+    left:44%;
+    top:7%;
+    margin-top:0;
+    color: darkblue;
+}
+
+.popup .Red_Popup {
+    position: relative;
+    left:40%;
+    top:7%;
+    margin-top:0;
+    color: darkred;
+}
+
+.popup .Hangman_Popup {
+    position: relative;
+    left:38%;
+    top:7%;
+    margin-top:0;
+    color: darkblue;
+}
+
+.popup .Infra_Popup {
+    position: relative;
+    left:40%;
+    top:7%;
+    margin-top:0;
+    color: darkblue;
+}
+
+.popup .API_Popup {
+    position: relative;
+    left:40%;
+    top:7%;
+    margin-top:0;
+    color: darkblue;
+}
+
+.popup .TpSite_Popup {
+    position: relative;
+    left:40%;
+    top:7%;
+    margin-top:0;
+    color: darkblue;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.container_with_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right:2.5vw;
+    width: 18vw;
+}
+
+.red_image{
+    width:3vw;
+    height:5vh
+}
+
+.hangman_image{
+    width: 3vw;
+    height:3vw
 }

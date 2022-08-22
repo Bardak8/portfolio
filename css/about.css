@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
+}

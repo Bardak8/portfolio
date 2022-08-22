@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Bold1';
+    src: url("../font/ClearSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Light1';
+    src: url("../font/ClearSans-Light.ttf") format("truetype");
+}
+
 .email{
     display:flex;
     justify-content: center;
@@ -6,9 +16,8 @@
 .content{
     display:flex;
     margin: 0  ;
-    padding:0 ;
-    padding-top :9vh;
-    height:85vh;
+    padding: 9vh 0 0;
+    height:88vh;
     width: 100vw;
     flex-direction: column;
     align-items: center;
@@ -19,7 +28,7 @@
 h2{
     text-align: center;
     margin-bottom: 2vh;
-    color:blue
+    color:blue;
 }
 
 li{
@@ -32,13 +41,15 @@ li{
     margin-top:3vh;
     justify-content: start;
     width: 100%;
-    color:black
+    color:black;
+    font-family: Light1, serif;
 }
 
 .Adresse{
     display:flex;
     font-size:16px;
     margin-top:3vh;
+    font-family: Light1, serif;
     color:black
 }
 
@@ -49,7 +60,8 @@ li{
 h1 {
     color:black;
     margin-top:3vh;
-    font-size:45px
+    font-size:45px;
+    font-family: Bold1,serif;
 }
 
 textarea {
