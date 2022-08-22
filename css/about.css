@@ -7,3 +7,8 @@
     font-family: 'Light';
     src: url("../font/ClearSans-Light.ttf") format("truetype");
 }
+
+.container_about{
+    height:88vh;
+    width: 100vw;
+}

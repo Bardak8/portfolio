@@ -235,6 +235,11 @@
     padding-right:4vh
 }
 
+.github_projet_hang{
+    color:darkblue;
+    padding-right:4vh
+}
+
 .content_Popup .fa-github{
     font-size:60px
 }
@@ -243,7 +248,7 @@
     margin-top: 5vh;
     position:relative;
     top:6vh;
-    height:40vh;
+    height:45vh;
     font-size: 16px;
     padding: 2vh 2vh 2vh 3vh;
     color:black;
@@ -316,23 +321,4 @@
 }
 .popup .close:hover {
     color: #06D85F;
-}
-
-.container_with_image{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    right:2.5vw;
-    width: 18vw;
-}
-
-.red_image{
-    width:3vw;
-    height:5vh
-}
-
-.hangman_image{
-    width: 3vw;
-    height:3vw
 }
