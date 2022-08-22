@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Light';
+    font-family: 'Light1';
     src: url("../font/ClearSans-Light.ttf") format("truetype");
 }
 
@@ -227,16 +227,18 @@
     border-color: transparent transparent transparent #f45b69;
 }
 
-time {
+h3 {
     display: block;
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 8px;
+    font-family: Bold1, serif;
 }
 
-
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline_p{
+    font-size:15px;
+    font-family: Light1, serif;
+}
 
 .timeline ul li::after {
     transition: background 0.5s ease-in-out;
@@ -267,10 +269,6 @@ time {
 }
 
 
-
-
-/* EXTRA/CLIP PATH STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline-clippy ul li::after {
     width: 40px;
     height: 40px;
