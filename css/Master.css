@@ -49,7 +49,7 @@ a {
     width: 100%;
     position: fixed;
     opacity: 1;
-    z-index: 1;
+    z-index: 9999;
 }
 #header:after {
     content: "";

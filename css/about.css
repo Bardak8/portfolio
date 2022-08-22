@@ -427,3 +427,18 @@ h3 {
         transform: translateX(-50%) scale(1);
     }
 }
+
+@media screen and (max-width: 1800px) {
+    .about_down p{
+
+        color:black;
+        font-size:10px;
+        font-family:Light1, serif ;
+        padding-left:1vw;
+        padding-top: 0.3vh;
+        text-shadow: 1px 0 0 black;
+        height:100%;
+        display:flex;
+        align-items: center;
+    }
+}
