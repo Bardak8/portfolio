@@ -19,7 +19,7 @@
 .about{
     display:flex;
     flex-direction: row;
-    height:40vh;
+    height:42vh;
     width:35vw;
     background-color:white;
     opacity:0.7;
@@ -46,10 +46,10 @@
 .about_down{
     position: relative;
     width: 100%;
-    height:50%;
+    height:80%;
     display: flex;
     flex-direction: column;
-
+    padding-top: 0.7vh;
 }
 
 .about_up{
@@ -121,8 +121,11 @@
     font-size:12px;
     font-family:Light1, serif ;
     padding-left:1vw;
-    padding-top: 1vh;
-    text-shadow: 1px 0 0 black
+    padding-top: 0.3vh;
+    text-shadow: 1px 0 0 black;
+    height:100%;
+    display:flex;
+    align-items: center;
 }
 
 .about{
